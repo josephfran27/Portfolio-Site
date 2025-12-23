@@ -7,7 +7,7 @@ export default function Home() {
     {/* navbar */}
       <Navbar />
 
-        <main className="pt-20">
+        <main className="pt-14">
           {/* home section */}
           <section id="home" className="min-h-screen flex justify-center items-center px-8">
             <div className="max-w-3xl w-full">
@@ -94,7 +94,7 @@ export default function Home() {
           </section>
 
           {/* about section */}
-          <section id="about" className="min-h-screen flex items-center justify-center px-8">
+          <section id="about" className="min-h-screen flex items-center justify-center px-4 sm:px-8 py-12">
             <div className="max-w-7xl mx-auto">
               <h2 className="text-5xl mb-3 text-white-50 dark:text-white text-center font-bold">About Me</h2>
               <div className="w-80 h-1 bg-gradient-to-r from-transparent via-gray-700 to-transparent mx-auto mb-3"></div>
