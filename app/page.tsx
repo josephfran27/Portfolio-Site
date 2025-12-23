@@ -11,7 +11,7 @@ export default function Home() {
           {/* home section */}
           <section id="home" className="min-h-screen flex items-center justify-center px-8">
             <div className="max-w-3xl w-full">
-              <div className="flex justify center mb-6 mt-14">
+              <div className="flex justify center mb-6 mt-20">
                 <img 
                   src="/profile.png"
                   alt="Joseph France Image"
