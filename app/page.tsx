@@ -11,6 +11,7 @@ export default function Home() {
           {/* home section */}
           <section id="home" className="min-h-screen flex items-center justify-center px-8">
             <div className="max-w-3xl w-full">
+              {/* photo */}
               <div className="flex justify center mb-6 mt-20">
                 <img 
                   src="/profile.png"
@@ -18,11 +19,11 @@ export default function Home() {
                   className="w-45 h-45 rounded-full mx-auto mb-4 object-cover border-2 border-gray-500 shadow-lg hover:scale-105 transition-transform duration-300 hover:border-gray-300"
                   />
               </div>
-
+              {/* centered name */}
               <h1 className="text-6xl font-bold text-gray-900 dark:text-white text-center mb-8">
                 Joseph France
               </h1> 
-
+              {/* school section */}
               <div className="space-y-4">
                 <div className="flex items-start gap-4 mb-6">
                   <svg className="w-6 h-6 text-gray-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -34,7 +35,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-
+              {/* education section */}
               <div className="space-y-4">
                 <div className="flex items-start gap-4 mb-6">
                   <svg className="w-6 h-6 text-gray-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -45,7 +46,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-
+              {/* organizations section */}
               <div className="space-y-6">
                 <div className="flex items-start gap-4 mb-6">
                   <svg className="w-6 h-6 text-gray-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -60,12 +61,36 @@ export default function Home() {
           </section>
 
           {/* about section */}
-          <section id="about" className="min-h-screen flex items-center justify-center px-15">
-            <div className="max-w-4xl mx-auto px-6 py-12 bg-zinc-900 rounded-lg border-2 border-gray-500 shadow-lg hover:scale-102 transition-transform duration-300 hover:border-gray-300">
-              <h2 className="text-4xl mb-6 text-white-50 dark:text-white">About Me</h2>
-              <p className="text-lg text-white-50 mb-4">
-                FILL IN ABOUT ME
-              </p>
+          <section id="about" className="min-h-screen flex items-center justify-center px-8">
+            <div className="max-w-7xl mx-auto">
+              <h2 className="text-4xl mb-3 text-white-50 dark:text-white text-center font-bold">About Me</h2>
+              <div className="w-60 h-1 bg-gradient-to-r from-transparent via-gray-600 to-transparent mx-auto mb-3"></div>
+
+              <div className="px-4 py-6 bg-zinc-900 rounded-lg border-2 border-gray-700 shadow-lg hover:scale-101 transition-transform duration-300 hover:border-gray-500">
+                <div className="flex flex-col md:flex-row gap-8 items-center">
+                  <div className="flex-1">
+                    <p className="text-lg text-white-50 mb-4">
+                      I'm a Computer Science student at the University of Missouri passionate about
+                      building innovative solutions to real-world problems. 
+                    </p>
+                    <p className="text-lg text-white-50 mb-4">
+                      I enjoy improving my skills through hands-on projects like personal finance trackers and clinic
+                      management systems that blend practical functionality with cutting-edge technology. 
+                    </p>
+                    <p className="text-lg text-white-50 mb-4">
+                      Beyond coding, I work as a Leasing Agent at Article Student Living and stay active through my hobbies
+                      in fitness and nutrition.
+                    </p>
+                  </div>
+                  <div className="flex-1 w-full md:w-auto">
+                    <img 
+                      src="/jesse.jpg"
+                      alt="Jesse Hall Image"
+                      className="w-full h-auto rounded-lg border-2 border-gray-700 shadow-lg hover:scale-101 transition-transform duration-300 hover:border-gray-500"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
 
