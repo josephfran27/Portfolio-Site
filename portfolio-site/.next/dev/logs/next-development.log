@@ -1,0 +1,46 @@
+[00:00:00.456] Server  LOG     ✓ Ready in 336ms
+[00:00:13.391] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.498] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:46.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:28.639] Browser ERROR   ./portfolio-site/app/page.tsx:9:15
+Parsing ecmascript source code failed
+   7 |         <div className="text-center"></div>
+   8 |           <h1 className="text-6xl font-bold text-gray-900 dark:text-white sm:text-5xl">Joseph France</h1> 
+>  9 |         </div>
+     |               ^
+> 10 |       </main>
+     | ^^^^^^^
+  11 |     </div>
+  12 |   );
+  13 | }
+
+Expected '</', got 'jsx text (
+      )'
+[00:34:10.149] Server  LOG     ✓ Compiled in 42ms
+[00:34:16.763] Server  LOG     ✓ Compiled in 38ms
+[00:34:23.986] Server  LOG     ✓ Compiled in 33ms
+[00:34:26.957] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:12.185] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[01:15:51.354] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/josephfrance/Desktop/portfolio/portfolio-site/app'
+[01:15:51.356] Server  ERROR   ⨯ "unhandledRejection:" Error: ENOENT: no such file or directory, scandir '/Users/josephfrance/Desktop/portfolio/portfolio-site/app'
+[01:15:51.358] Server  ERROR   ⨯ "unhandledRejection: " Error: ENOENT: no such file or directory, scandir '/Users/josephfrance/Desktop/portfolio/portfolio-site/app'
+[01:15:51.379] Server  ERROR   ⨯ PageNotFoundError: Cannot find module for page: route not found /_not-found/page
+[01:15:51.846] Server  ERROR   Error: Cannot find module '/Users/josephfrance/Desktop/portfolio/portfolio-site/node_modules/styled-jsx/index.js'
+Require stack:
+- /Users/josephfrance/Desktop/portfolio/node_modules/next/dist/compiled/next-server/pages-turbo.runtime.dev.js
+- /Users/josephfrance/Desktop/portfolio/node_modules/next/dist/server/route-modules/pages/module.compiled.js
+- /Users/josephfrance/Desktop/portfolio/node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js
+- /Users/josephfrance/Desktop/portfolio/node_modules/next/dist/pages/_document.js
+- /Users/josephfrance/Desktop/portfolio/portfolio-site/node_modules/next/dist/server/load-default-error-components.js
+- /Users/josephfrance/Desktop/portfolio/portfolio-site/node_modules/next/dist/server/dev/next-dev-server.js
+- /Users/josephfrance/Desktop/portfolio/portfolio-site/node_modules/next/dist/server/next.js
+- /Users/josephfrance/Desktop/portfolio/portfolio-site/node_modules/next/dist/server/lib/start-server.js
+[01:15:51.847] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/josephfrance/Desktop/portfolio/portfolio-site/app'
+[01:15:51.852] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/josephfrance/Desktop/portfolio/portfolio-site/app'
+[01:15:51.853] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/josephfrance/Desktop/portfolio/portfolio-site/app'
+[01:15:51.855] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/josephfrance/Desktop/portfolio/portfolio-site/app'
+[01:15:51.856] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/josephfrance/Desktop/portfolio/portfolio-site/app'
+[01:15:51.858] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/josephfrance/Desktop/portfolio/portfolio-site/app'
+[01:15:51.859] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/josephfrance/Desktop/portfolio/portfolio-site/app'
+[01:15:51.860] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/josephfrance/Desktop/portfolio/portfolio-site/app'
+[01:15:51.861] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/josephfrance/Desktop/portfolio/portfolio-site/app'

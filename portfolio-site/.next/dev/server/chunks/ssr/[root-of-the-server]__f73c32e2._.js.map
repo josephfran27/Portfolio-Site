@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/josephfrance/Desktop/portfolio/portfolio-site/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <main className=\"min-h-screen flex items-center justify-center\">\n      \n      <div className=\"text-center\">\n        <img \n          src=\"/profile.png\"\n          alt=\"Joseph France Image\"\n          className=\"w-45 h-45 rounded-full mx-auto mb-6 object-cover border-2 border-gray-500 shadow-sm\"\n          />\n        <h1 className=\"text-6xl font-bold text-gray-900 dark:text-white sm:text-5xl\">Joseph France</h1> \n        <p className=\"text-xl text-gray-400\">\n          University of Missouri-Columbia\n        </p>\n      </div>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAEe,SAAS;IACtB,qBACE,mQAAC;QAAK,WAAU;kBAEd,cAAA,mQAAC;YAAI,WAAU;;8BACb,mQAAC;oBACC,KAAI;oBACJ,KAAI;oBACJ,WAAU;;;;;;8BAEZ,mQAAC;oBAAG,WAAU;8BAA+D;;;;;;8BAC7E,mQAAC;oBAAE,WAAU;8BAAwB;;;;;;;;;;;;;;;;;AAM7C"}}]
+}
