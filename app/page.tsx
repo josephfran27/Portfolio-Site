@@ -55,6 +55,18 @@ export default function Home() {
 
               {/* social buttons section */}
               <div className="flex flex-wrap gap-3 sm:gap-6 mt-6 sm:mt-8 fade-in fade-in-delay-5">
+                {/* resume download button */}
+                <a  
+                  href="/France_Resume_2025.pdf"
+                  download
+                  className="flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2 bg-zinc-900 text-white-50 rounded border-2 border-gray-700 shadow-lg hover:scale-101 transition-transform duration-300 hover:border-gray-500 text-sm sm:text-base"
+                >
+                  <svg className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  <span>Resume</span>
+                </a>
+
                 {/* email button */}
                 <a  
                   href="mailto:joefrance634@gmail.com"
@@ -65,6 +77,7 @@ export default function Home() {
                   </svg>
                   <span>Email</span>               
                 </a> 
+                
                 {/* linkedin button */}
                 <a  
                   href="https://www.linkedin.com/in/joseph-france-4b5b7a2ab/"
@@ -77,6 +90,7 @@ export default function Home() {
                   </svg>
                   <span>LinkedIn</span>               
                 </a> 
+
                 {/* github button */}
                 <a  
                   href="https://github.com/josephfran27"
@@ -146,12 +160,44 @@ export default function Home() {
           </section>
 
           {/* contact section */}
-          <section id="contact" className="min-h-screen flex items-center justify-center px-4 sm:px-8 py-12">
-            <div className="max-w-7xl mx-auto">
-              <h2 className="text-3xl sm:text-5xl mb-3 text-white-50 dark:text-white text-center font-bold">Contact Me!</h2>
-              <div className="w-60 sm:w-80 h-1 bg-gradient-to-r from-transparent via-gray-700 to-transparent mx-auto mb-3"></div>
-            </div>
-          </section>
+          <FadeIn>
+            <section id="contact" className="min-h-screen flex items-center justify-center px-4 sm:px-8 py-12">
+              <div className="max-w-7xl mx-auto">
+                <h2 className="text-3xl sm:text-5xl mb-3 text-white-50 dark:text-white text-center font-bold">Get In Touch</h2>
+                <div className="w-60 sm:w-80 h-1 bg-gradient-to-r from-transparent via-gray-700 to-transparent mx-auto mb-3"></div>
+                <h2 className="text-center sm:text-xl text-yellow-200 mb-3 max-w-3xl sm:mb-4 fade-in">
+                  I'd love to hear from you! Whether you have a question, want to discuss opportunities, or just want to say hello, feel free to reach out.'
+                </h2>
+
+                {/* links */}
+                <div className="flex flex-wrap justify-center gap-3 sm:gap-6 mt-6 sm:mt-8 fade-in fade-in-delay-5">
+
+                  {/* email button */}
+                  <a  
+                    href="mailto:joefrance634@gmail.com"
+                    className="flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2 bg-zinc-900 text-white-50 rounded border-2 border-gray-700 shadow-lg hover:scale-101 transition-transform duration-300 hover:border-gray-500 text-sm sm:text-base"
+                  >
+                    <svg className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <span>joefrance634@gmail.com</span>               
+                  </a> 
+
+                  {/* resume download button */}
+                  <a  
+                    href="/France_Resume_2025.pdf"
+                    download
+                    className="flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2 bg-zinc-900 text-white-50 rounded border-2 border-gray-700 shadow-lg hover:scale-101 transition-transform duration-300 hover:border-gray-500 text-sm sm:text-base"
+                  >
+                    <svg className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    <span>Resume</span>
+                  </a>
+                </div>
+              </div>    
+            </section>
+          </FadeIn>
         </main>
     </>
   );
