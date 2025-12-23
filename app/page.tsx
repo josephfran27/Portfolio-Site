@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from '@/components/Navbar'
+import FadeIn from '@/components/FadeIn'
 
 export default function Home() {
   return (
@@ -11,15 +12,14 @@ export default function Home() {
           {/* home section */}
           <section id="home" className="min-h-screen flex justify-center items-center px-8">
             <div className="max-w-3xl w-full">
-              {/* photo */}
-              <h2 className="text-2xl sm:text-3xl font-200 text-yellow-200 mb-3 sm:mb-4">
+              <h2 className="text-2xl sm:text-3xl font-200 text-yellow-200 mb-3 sm:mb-4 fade-in">
                 Hello there! I'm-
               </h2> 
-              <h1 className="text-4xl sm:text:6xl md:text-8xl font-bold text-gray-900 dark:text-white mb-8 sm:mb-12">
+              <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold text-gray-900 dark:text-white mb-8 sm:mb-12 fade-in fade-in-delay-1">
                 Joseph France
               </h1> 
               {/* school section */}
-              <div className="space-y-4">
+              <div className="space-y-4 fade-in fade-in-delay-2">
                 <div className="flex items-start gap-3 sm:gap-4 mb-6 sm:mb-10">
                   <svg className="w-5 h-5 sm:w-6 sm:h-6 text-gray-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -31,7 +31,7 @@ export default function Home() {
                 </div>
               </div>
               {/* education section */}
-              <div className="space-y-4">
+              <div className="space-y-4 fade-in fade-in-delay-3">
                 <div className="flex items-start gap-3 sm:gap-4 mb-6 sm:mb-10">
                   <svg className="w-6 h-6 sm:w-6 sm:h-6 text-gray-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -42,7 +42,7 @@ export default function Home() {
                 </div>
               </div>
               {/* organizations section */}
-              <div className="space-y-6">
+              <div className="space-y-6 fade-in fade-in-delay-4">
                 <div className="flex items-start gap-3 sm:gap-4 mb-6 sm:mb-10">
                   <svg className="w-6 h-6 sm:w-6 sm:h-6 text-gray-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -54,7 +54,7 @@ export default function Home() {
               </div>
 
               {/* social buttons section */}
-              <div className="flex flex-wrap gap-3 sm:gap-6 mt-6 sm:mt-8">
+              <div className="flex flex-wrap gap-3 sm:gap-6 mt-6 sm:mt-8 fade-in fade-in-delay-5">
                 {/* email button */}
                 <a  
                   href="mailto:joefrance634@gmail.com"
@@ -94,38 +94,40 @@ export default function Home() {
           </section>
 
           {/* about section */}
-          <section id="about" className="min-h-screen flex items-center justify-center px-4 sm:px-8 py-12">
-            <div className="max-w-7xl mx-auto">
-              <h2 className="text-3xl sm:text-5xl mb-3 text-white-50 dark:text-white text-center font-bold">About Me</h2>
-              <div className="w-60 sm:w-80 h-1 bg-gradient-to-r from-transparent via-gray-700 to-transparent mx-auto mb-3"></div>
+          <FadeIn>
+            <section id="about" className="min-h-screen flex items-center justify-center px-4 sm:px-8 py-12">
+              <div className="max-w-7xl mx-auto">
+                <h2 className="text-3xl sm:text-5xl mb-3 text-white-50 dark:text-white text-center font-bold">About Me</h2>
+                <div className="w-60 sm:w-80 h-1 bg-gradient-to-r from-transparent via-gray-700 to-transparent mx-auto mb-3"></div>
 
-              <div className="px-2 sm: px-4 py-6 bg-zinc-900 rounded-lg border-2 border-gray-700 shadow-lg hover:scale-101 transition-transform duration-300 hover:border-gray-500">
-                <div className="flex flex-col md:flex-row gap-6 sm:gap-8 items-center">
-                  <div className="flex-1">
-                    <p className="text-base sm:text-lg text-white-50 mb-4">
-                      I'm a Computer Science student at the University of Missouri passionate about
-                      building innovative solutions to real-world problems. 
-                    </p>
-                    <p className="text-base sm:text-lg text-white-50 mb-4">
-                      I enjoy improving my skills through hands-on projects like personal finance trackers and clinic
-                      management systems that blend practical functionality with cutting-edge technology. 
-                    </p>
-                    <p className="text-base sm:text-lg text-white-50 mb-4">
-                      Beyond coding, I work as a Leasing Agent at Article Student Living and stay active through my hobbies
-                      in fitness and nutrition.
-                    </p>
-                  </div>
-                  <div className="flex-1 w-full md:w-auto">
-                    <img 
-                      src="/profile.png"
-                      alt="Joseph France Image"
-                      className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full mx-auto object-cover border-2 border-gray-500 shadow-lg hover:scale-105 transition-transform duration-300 hover:border-gray-300"
-                    />
+                <div className="px-2 sm:px-4 py-6 bg-zinc-900 rounded-lg border-2 border-gray-700 shadow-lg hover:scale-101 transition-transform duration-300 hover:border-gray-500">
+                  <div className="flex flex-col md:flex-row gap-6 sm:gap-8 items-center">
+                    <div className="flex-1">
+                      <p className="text-base sm:text-lg text-white-50 mb-4">
+                        I'm a Computer Science student at the University of Missouri passionate about
+                        building innovative solutions to real-world problems. 
+                      </p>
+                      <p className="text-base sm:text-lg text-white-50 mb-4">
+                        I enjoy improving my skills through hands-on projects like personal finance trackers and clinic
+                        management systems that blend practical functionality with cutting-edge technology. 
+                      </p>
+                      <p className="text-base sm:text-lg text-white-50 mb-4">
+                        Beyond coding, I work as a Leasing Agent at Article Student Living and stay active through my hobbies
+                        in fitness and nutrition.
+                      </p>
+                    </div>
+                    <div className="flex-1 w-full md:w-auto">
+                      <img 
+                        src="/profile.png"
+                        alt="Joseph France Image"
+                        className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full mx-auto object-cover border-2 border-gray-500 shadow-lg hover:scale-105 transition-transform duration-300 hover:border-gray-300"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
+            </section>
+          </FadeIn>
 
           {/* projects section */}
           <section id="projects" className="min-h-screen flex items-center justify-center px-4 sm:px-8 py-12">
