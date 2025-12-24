@@ -159,7 +159,7 @@ export default function Home() {
 
           {/* contact section */}
           <FadeIn>
-            <section id="contact" className="min-h-screen flex items-center justify-center px-4 sm:px-8 py-12">
+            <section id="contact" className="flex items-center justify-center px-4 sm:px-8 py-12">
               <div className="max-w-7xl mx-auto">
                 <h2 className="text-3xl sm:text-5xl mb-3 text-white-50 dark:text-white text-center font-bold">Get In Touch</h2>
                 <div className="w-60 sm:w-80 h-1 bg-gradient-to-r from-transparent via-gray-700 to-transparent mx-auto mb-8"></div>
@@ -206,6 +206,10 @@ export default function Home() {
                     <span>LinkedIn</span>               
                   </a>
                 </div>
+                <a 
+                  href="#home" 
+                  className="mt-28 flex items-center justify-center mx-auto w-fit text-sm sm:text-base text-gray-500 hover:text-gray-300 hover:scale-110 transition-transform duration-300">
+                  Back to Top ↑ </a>
               </div>    
             </section>
           </FadeIn>
