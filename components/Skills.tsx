@@ -42,7 +42,7 @@ const Skills = () => {
                         <div className="absolute right-0 top-0 bottom-0 w-2 bg-gradient-to-l from-gray-700 to-transparent z-10"></div>
                         
                         <div className={`flex ${isVisible ? 'animate-slide' : ''}`}>
-                            <div className="flex gap-12 px-6">
+                            <div className="flex gap-6 px-6">
                                 {/* python */}
                                 <div className="flex flex-col items-center gap-2 min-w-[120px]">
                                     <img 
