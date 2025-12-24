@@ -15,8 +15,8 @@ export default function Home() {
                         <a href="#skills" className="text-lg text-gray-500 hover:scale-110 transition-transform duration-300 hover:text-gray-300 transition">
                             Skills
                         </a>
-                        <div className="px-1 bg-yellow-200 rounded border-2 border-gray-700 shadow-lg hover:scale-101 transition-transform duration-300 hover:border-gray-500">
-                            <a href="#contact" className="text-lg text-gray-800 hover:scale-110 transition-transform duration-300 hover:text-gray-600 transition">
+                        <div className="px-1 bg-yellow-200 rounded border-2 border-yellow-600 shadow-lg hover:scale-101 transition-transform duration-300 hover:border-yellow-500">
+                            <a href="#contact" className="text-lg text-gray-800 hover:scale-110 transition-transform duration-300 hover:text-gray-700 transition">
                                 Contact
                             </a>
                         </div>
