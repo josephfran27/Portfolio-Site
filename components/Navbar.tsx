@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Navbar() {
     return (
         <nav className='fixed top-4 left-1/2 -translate-x-1/2 bg-zinc-900/20 backdrop-blur-md border-2 border-gray-700 rounded z-50 shadow-lg'>
             <div className="px-8 py-3">
