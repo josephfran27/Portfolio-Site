@@ -5,7 +5,7 @@ export default function HomePg() {
                 <h2 className="text-2xl sm:text-3xl font-200 text-yellow-200 mb-3 sm:mb-4 fade-in">
                     Hello there! I'm-
                 </h2> 
-                <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold text-gray-900 dark:text-white mb-8 sm:mb-12 fade-in fade-in-delay-1">
+                <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold text-white-50 mb-8 sm:mb-12 fade-in fade-in-delay-1">
                     Joseph France
                 </h1> 
                 {/* school section */}
