@@ -49,7 +49,7 @@ export default function HomePg() {
                 <div className="flex flex-wrap gap-3 sm:gap-6 mt-6 sm:mt-8 fade-in fade-in-delay-5">
                     {/* resume download button */}
                     <a  
-                        href="/France_Resume_2025.pdf"
+                        href="/France_Resume_25.pdf"
                         download
                         className="flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2 bg-zinc-900 text-white-50 rounded border-2 border-gray-700 shadow-lg hover:scale-101 transition-transform duration-300 hover:border-gray-500 text-sm sm:text-base"
                     >
