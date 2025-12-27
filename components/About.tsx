@@ -9,11 +9,11 @@ export default function About() {
                     <div className="flex flex-col md:flex-row gap-6 sm:gap-8 items-center">
                         <div className="flex-1">
                             <p className="text-base sm:text-lg text-white-50 mb-4">
-                                I'm a Computer Science student at the University of Missouri passionate about
+                                I'm a Computer Science student at the University of Missouri who is passionate about
                                 building innovative solutions to real-world problems. 
                             </p>
                             <p className="text-base sm:text-lg text-white-50 mb-4">
-                                I enjoy improving my skills through hands-on projects like personal finance trackers and clinic
+                                I enjoy improving my skills through hands-on projects, like personal finance trackers and clinic
                                 management systems that blend practical functionality with cutting-edge technology. 
                             </p>
                             <p className="text-base sm:text-lg text-white-50 mb-4">

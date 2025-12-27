@@ -11,7 +11,6 @@ export default function Projects() {
                     {/* project 1 */}
                     <div className="flex-1 min-w-full lg:min-w-[450px] px-6 sm:px-8 py-6 bg-zinc-900 rounded-lg border-2 border-gray-700 shadow-lg hover:scale-101 transition-transform duration-300 hover:border-gray-500">
                         <h3 className="text-xl sm:text-2xl font-bold text-white-50 text-center mb-3">Budgeting Buddy</h3>
-                        <h3 className="text-xl sm:text-2xl font-bold text-white-50 text-center mb-3">Budgeting Buddy</h3>
                         <p className="text-base sm:text-lg text-white-50 mb-4">
                             A personal finance tracker that helps users manage their budgets, track expenses, and visualize spending patterns through interactive charts.
                         </p>
