@@ -11,6 +11,7 @@ export default function Projects() {
                     {/* project 1 */}
                     <div className="flex-1 min-w-full lg:min-w-[450px] px-6 sm:px-8 py-6 bg-zinc-900 rounded-lg border-2 border-gray-700 shadow-lg hover:scale-101 transition-transform duration-300 hover:border-gray-500">
                         <h3 className="text-xl sm:text-2xl font-bold text-white-50 text-center mb-3">Budgeting Buddy</h3>
+                        <h3 className="text-xl sm:text-2xl font-bold text-white-50 text-center mb-3">Budgeting Buddy</h3>
                         <p className="text-base sm:text-lg text-white-50 mb-4">
                             A personal finance tracker that helps users manage their budgets, track expenses, and visualize spending patterns through interactive charts.
                         </p>
@@ -41,6 +42,7 @@ export default function Projects() {
                                 className="w-14 h-14 sm:w-16 sm:h-16 object-contain hover:scale-115 transition-transform duration-300"
                             />
                         </div>
+                        <div className="text-gray-400 italic text-sm sm:text-base mb-4 text-center">May 2025 - Present</div>
                         {/* github link */}
                         <div className="flex gap-3 justify-center">
                             <a 
@@ -84,6 +86,7 @@ export default function Projects() {
                                 className="w-14 h-14 sm:w-16 sm:h-16 object-contain hover:scale-115 transition-transform duration-300"
                             />
                         </div>
+                        <div className="text-gray-400 italic text-sm sm:text-base mb-4 text-center">August 2025</div>
                         {/* github link */}
                         <div className="flex gap-3 justify-center">
                             <a 
