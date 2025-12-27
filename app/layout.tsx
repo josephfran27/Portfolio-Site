@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Joseph France",
+  title: "Joseph France - University of Missouri - Columnia",
   description: "Portfolio Website",
 };
 
